@@ -1,24 +1,22 @@
-# 🚀 Terraform Azure Infrastrukturprosjekt – Webserver og Databaser
+
 
 Dette prosjektet viser hvordan man bygger opp infrastruktur i Azure ved hjelp av Terraform-moduler.  
-Målet er å lære modulbasert oppbygging og automatisering av web- og database-VM-er i en sikker og strukturert nettverksarkitektur.
 
----
 
-## 📘 Innhold
+
 
 Dette prosjektet oppretter:
 
-- ✅ 1 webserver (Linux VM med Apache installert)
-- ✅ 2 database-VM-er (Linux)
-- ✅ Virtuelt nettverk (VNet) med to subnet
-- ✅ NSG (Network Security Group) med åpne porter (80/22)
-- ✅ Automatisk installasjon av webtjeneste med velkomstmelding
-- ✅ Strukturert modulbruk (nettverk, vm, lastbalanserer)
+- 1 webserver (Linux VM med Apache installert)
+- 2 database-VM-er (Linux)
+- Virtuelt nettverk (VNet) med to subnet
+- NSG (Network Security Group) med åpne porter (80/22)
+- Automatisk installasjon av webtjeneste med velkomstmelding
+- Strukturert modulbruk (nettverk, vm, lastbalanserer)
 
 ---
 
-## 🗂️ Katalogstruktur
+Katalogstruktur
 terraform-azure-infrastructure/ ├── main.tf ├── provider.tf ├── README.md ├── modules/ │ ├── network/ │ ├── vm/ │ └── loadbalancer/ (valgfritt)
 
 
